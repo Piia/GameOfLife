@@ -1,7 +1,5 @@
-package gui;
+package main.java.gui;
 
-import java.awt.Font;
-import javax.swing.JLabel;
 import javax.swing.JSlider;
 import javax.swing.event.ChangeListener;
 

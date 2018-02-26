@@ -1,4 +1,4 @@
-package game;
+package main.java.game;
 
 import java.util.Observable;
 import java.util.Random;

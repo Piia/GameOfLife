@@ -1,6 +1,6 @@
-package gui;
+package main.java.gui;
 
-import game.Factory;
+import main.java.game.Factory;
 import javax.swing.SwingUtilities;
 
 public class Main {

@@ -1,6 +1,6 @@
-package gui;
+package main.java.gui;
 
-import game.GameOfLife;
+import main.java.game.GameOfLife;
 import java.util.Observable;
 import java.util.Observer;
 import javax.swing.JFrame;
@@ -10,11 +10,11 @@ import javax.swing.JMenuBar;
 public class Window implements Observer, Runnable {
 
     private final JFrame frame;
-    private Painter painter;
+    private final Painter painter;
+    private final int squareSize;
+    private final JMenuBar menuBar;
     private GameOfLife game;
     private Thread gameThread;
-    private final int squareSize;
-    private JMenuBar menuBar;
 
     public Window(GameOfLife game, int squareSize) {
         this.frame = new JFrame("GAME OF LIFE");

@@ -1,6 +1,6 @@
-package gui;
+package main.java.gui;
 
-import game.GameOfLife;
+import main.java.game.GameOfLife;
 import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
